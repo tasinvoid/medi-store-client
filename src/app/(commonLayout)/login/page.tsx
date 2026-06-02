@@ -1,10 +1,13 @@
+import { LoginForm } from '@/components/login/login-form';
 import React from 'react';
 
 const LoginPage = () => {
     return (
-        <div>
-            this is Login page
+      <div className="flex w-full items-center justify-center p-6 md:p-10">
+        <div className="w-full max-w-sm">
+          <LoginForm />
         </div>
+      </div>
     );
 };
 
